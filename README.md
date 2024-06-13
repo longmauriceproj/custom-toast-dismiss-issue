@@ -1,8 +1,3 @@
-# React + Vite
+Minimal reproduction of react-hot-toast custom toast dismiss issue. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Using the custom toast example on the home page, if user clicks the dismiss button, it will take a few seconds before it registers and actually dismiss the toast.
